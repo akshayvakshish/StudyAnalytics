@@ -1,0 +1,7 @@
+.nav-row{
+    margin: auto -10px auto -10px;
+}
+.nav-container{
+    margin: auto 25px auto 25px;
+    display: flex;
+}
