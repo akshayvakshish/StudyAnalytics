@@ -1,0 +1,23 @@
+.container{
+    width:50%;
+    height:50%;
+    
+  }
+  .video-container{
+      /* display: block; */
+      /* height: 250px;
+      width: 400px; */
+      margin-top: 14%;
+      width: 72%;
+      position: relative;
+      background-color: none;
+  }
+  .video-resize{
+    display: flex !important;
+    object-fit : fill;
+    height: 247px;
+      width: 441px;
+    display: block;
+    position: relative;
+    
+  }
