@@ -19,17 +19,20 @@ import {VgBufferingModule} from 'videogular2/buffering';
 import { MediaPlayerComponent } from './media-player/media-player.component';
 import { CoursesComponent } from './courses/courses.component';
 import { CourseCardComponent } from './Courses/course-card/course-card.component';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { SideNavComponent } from './side-nav/side-nav.component';
+import { ViewCourseComponent } from './view-course/view-course.component';
 
 @NgModule({
   declarations: [
-    AppComponent, HeaderComponent, CarouselComponent, IntroductionComponent, BarGraphsComponent, PieChartsComponent, GraphsComponent, YoutubePlayerComponent, MediaPlayerComponent, CoursesComponent, CourseCardComponent
+    AppComponent, HeaderComponent, CarouselComponent, IntroductionComponent, BarGraphsComponent, PieChartsComponent, GraphsComponent, YoutubePlayerComponent, MediaPlayerComponent, CoursesComponent, CourseCardComponent, SideNavComponent, ViewCourseComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,NgbModule,ChartsModule,YoutubePlayerModule,VgCoreModule,
     VgControlsModule,
     VgOverlayPlayModule,
-    VgBufferingModule
+    VgBufferingModule,AngularFontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
